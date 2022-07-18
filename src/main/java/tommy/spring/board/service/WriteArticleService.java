@@ -1,5 +1,7 @@
 package tommy.spring.board.service;
 
-public class WriteArticleService {
+import tommy.spring.board.vo.ArticleVO;
 
+public interface WriteArticleService {
+	void write(ArticleVO article);
 }
